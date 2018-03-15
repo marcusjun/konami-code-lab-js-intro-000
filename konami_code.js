@@ -13,7 +13,6 @@ function init() {
 
       if (index === code.length) {
         alert("Congratulations!")
-        //console.log("Congratulations!")
 
         index = 0
       }
@@ -22,7 +21,5 @@ function init() {
     }
   }
 
-  for (let i=0;i<code.length;i++){
-    document.body.addEventListener('keydown', onKeyDownHandler)
-  }
+  document.body.addEventListener('keydown', onKeyDownHandler)
 }
